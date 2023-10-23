@@ -29,7 +29,7 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-row">
                     <button className="btn btn-primary bg-[#6373ee] mr-5 px-3 py-3 rounded-md">
-                        Get JSX Template
+                        Get JS Template
                     </button>
                     <button className="btn btn-primary bg-[#6373ee] px-3 py-3 rounded-md">
                         Get TSX Template
