@@ -84,7 +84,7 @@ const Header = () => {
                 </div>
 
                 {/* Your links on large screens */}
-                <div className="hidden lg:flex lg:justify-center lg:gap-12 lg:items-center">
+                {/* <div className="hidden lg:flex lg:justify-center lg:gap-12 lg:items-center">
                     {links.map((link) => (
                         <Link
                             href={link.href}
@@ -95,7 +95,7 @@ const Header = () => {
                             {link.label}
                         </Link>
                     ))}
-                </div>
+                </div> */}
 
                 {/* CTA on large screens */}
                 <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div>

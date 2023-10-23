@@ -1,6 +1,6 @@
 import Image from "next/image";
-import TestimonialsAvatars from "./TestimonialsAvatars";
-import config from "@/config";
+// import TestimonialsAvatars from "./TestimonialsAvatars";
+// import config from "@/config";
 
 const Hero = () => {
     return (
@@ -28,12 +28,21 @@ const Hero = () => {
                     The NextJS boilerplate with all you need to build your project,SaaS or any web app. From idea to production in 5 minutes.
                 </p>
                 <div className="flex flex-row">
-                    <button className="btn btn-primary bg-[#6373ee] mr-5 px-3 py-3 rounded-md">
-                        Get JS Template
-                    </button>
-                    <button className="btn btn-primary bg-[#6373ee] px-3 py-3 rounded-md">
-                        Get TSX Template
-                    </button>
+                    <a
+                        href="https://github.com/Nouman159/ship-fast-main"
+                        target="_blank"
+                    >
+                        <button className="btn btn-primary bg-[#6373ee] mr-5 px-3 py-3 rounded-md">
+                            Get JS Template
+                        </button>
+                    </a>
+                    <a href="https://github.com/Nouman159/ship-fast-ts-main"
+                        target="_blank"
+                    >
+                        <button className="btn btn-primary bg-[#6373ee] px-3 py-3 rounded-md">
+                            Get TSX Template
+                        </button>
+                    </a>
                 </div>
 
                 {/* <TestimonialsAvatars priority={true} /> */}
