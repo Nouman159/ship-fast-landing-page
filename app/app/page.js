@@ -10,8 +10,8 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <FeaturesListicle />
-      <Footer />
+      {/* <FeaturesListicle /> */}
+      {/* <Footer /> */}
     </>
   );
 }
