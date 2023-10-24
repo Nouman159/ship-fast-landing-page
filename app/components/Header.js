@@ -60,7 +60,7 @@ const Header = () => {
                 </div>
 
                 {/* CTA on large screens */}
-                <a href="https://ship-fast-docs-q4psm224s-nouman-arshads-projects.vercel.app/" target="_blank">
+                <a href="https://ship-fast-docs-k7568tswk-nouman-arshads-projects.vercel.app/" target="_blank">
                     <div className="lg:flex lg:justify-end lg:flex-1">
                         {cta}
                     </div>
