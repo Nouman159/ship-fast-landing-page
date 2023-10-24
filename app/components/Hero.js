@@ -1,6 +1,4 @@
 import Image from "next/image";
-// import TestimonialsAvatars from "./TestimonialsAvatars";
-// import config from "@/config";
 
 const Hero = () => {
     return (
@@ -45,7 +43,6 @@ const Hero = () => {
                     </a>
                 </div>
 
-                {/* <TestimonialsAvatars priority={true} /> */}
             </div>
             <div className="lg:w-full">
                 <Image
